@@ -174,13 +174,8 @@ layout(matrix(1:2,ncol=1),widths=1,heights=c(2,2),respect=FALSE)
 par(mar = rep(0, 4), oma=c(4, 4, 4, 2), las=1)
 plot(x=wk.day.df$intervals, y=wk.day.df$mean_steps, type="l", ann=FALSE, xaxt='n', col=2)
 legend(1900,170,legend=c("Weekday"), yjust=0)
-#     main="Average Weekday Activity Pattern (Synthesized Data)", xlab="Interval of Day",
-#     ylab="Mean Number of Steps")
 plot(x=wk.end.df$intervals, y=wk.end.df$mean_steps, type="l", ann=FALSE, col=3)
 legend(1900,120,legend=c("Weekend"), yjust=0)
-#     main="Average Weekend Activity Pattern (Synthesized Data)", xlab="Interval of Day",
-#     ylab="Mean Number of Steps")
-#title("Average Activity Pattern (Synthesized Data)", outer=TRUE)
 mtext("Interval of Day", side=1, line=3, outer=TRUE)
 mtext("Mean Number of Steps", side=2, line=3, outer=TRUE, las=0)
 mtext("Average Activity Pattern (Synthesized Data)", side=3, line=1, outer=TRUE, cex=2, font=1)
