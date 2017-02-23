@@ -1,4 +1,4 @@
-# PA1_template.Rmd
+# Activity Monitoring Study
 Jeffrey Norton  
 February 21, 2017  
 
